@@ -65,16 +65,120 @@ h2 {
 }
 
 .image {
-    border-radius: 10px;
-    gap: 15px;
-    margin: 15px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
-    width: auto; 
-    height: 200px;
+    text-align: center;
+    gap: 15px;
 }
 
 img {
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: auto; 
+    height: 200px;
+}
+
+@media screen and (max-width: 1350px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 7600px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        width: auto; 
+        height: 350px;
+    }
 }
