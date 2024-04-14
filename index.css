@@ -1,12 +1,16 @@
+:root {
+    --red: #fa5f2f;
+}
+
 body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000000;
+    background: #121212;
 }
 
 h1 {
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
 }
 
 #navbar {
@@ -25,7 +29,7 @@ h1 {
     display: inline-block;
     font-size: 20px;
     padding: 10px;
-    color: #fa5f2f;
+    color: var(--red);
     text-decoration: none;
 }
 
@@ -61,12 +65,12 @@ h1 {
 #myworks {
     margin-top: 50px;
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
 }
 
 h2 {
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
 }
 
 .image {
@@ -88,31 +92,36 @@ img {
     background: white;
     height: 1px;
     width: 10px;
-}
+}   
 
-#images-presented {
-    margin: 10px auto;
+.images-presented {
+    margin: auto;
+    margin-top: 25px;
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
     font-weight: bold;
 }
 
 .footer-1 p {
     margin: auto;
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
     font-weight: bold;
 }
 
 .footer-1 a {
-    color: #fa5f2f;
+    color: var(--red);
 }
 
 .footer-2 p {
     margin: auto;
     text-align: center;
-    color: #fa5f2f;
+    color: var(--red);
     font-weight: bold;
+}
+
+.footer-2 p:last-child {
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 800px) {
