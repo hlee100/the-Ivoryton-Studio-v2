@@ -1,16 +1,16 @@
 :root {
-    --red: #fa5f2f;
+    --black: black;
 }
 
 body {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background: #121212;
+    background: #F5F4F4;
 }
 
 h1 {
     text-align: center;
-    color: var(--red);
+    color: var(--black);
 }
 
 #navbar {
@@ -29,7 +29,7 @@ h1 {
     display: inline-block;
     font-size: 20px;
     padding: 10px;
-    color: var(--red);
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -65,12 +65,12 @@ h1 {
 #myworks {
     margin-top: 50px;
     text-align: center;
-    color: var(--red);
+    color: var(--black);
 }
 
 h2 {
     text-align: center;
-    color: var(--red);
+    color: var(--black);
 }
 
 .image {
@@ -81,47 +81,55 @@ h2 {
 }
 
 img {
-    border: 1px solid transparent;
+    border: 2px solid black;
     border-radius: 10px;
     width: auto; 
     height: 350px;
 }
 
 .line {
-    margin: 5px auto;
-    background: white;
-    height: 1px;
-    width: 10px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    height: 2px;
+    width: 100%;
 }   
 
 .images-presented {
     margin: auto;
-    margin-top: 25px;
+    padding: 25px;
     text-align: center;
-    color: var(--red);
+    color: var(--black);
     font-weight: bold;
+}
+
+.footer-container {
+    margin-top: 148px;
+}
+
+.footer-1 {
+    padding: 25px;
+    background: white;
 }
 
 .footer-1 p {
     margin: auto;
     text-align: center;
-    color: var(--red);
+    color: var(--black);
     font-weight: bold;
 }
 
-.footer-1 a {
-    color: var(--red);
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background: white;
 }
 
 .footer-2 p {
-    margin: auto;
+    margin: 0px;
     text-align: center;
-    color: var(--red);
+    color: var(--black);
     font-weight: bold;
-}
-
-.footer-2 p:last-child {
-    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 800px) {
@@ -135,9 +143,18 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 350px;
+    }
+
+    .footer-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        background: white;
     }
 }
