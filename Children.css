@@ -40,7 +40,7 @@ h1 {
 
 .dropdown-content {
     width: 200px;
-    border: 1px solid transparent;
+    border: transparent;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
@@ -70,7 +70,7 @@ h1 {
 }
 
 img {
-    border: 1px solid transparent;
+    border: 2px solid black;
     border-radius: 10px;
     width: auto;
     height: 200px;
@@ -94,7 +94,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 150px;
@@ -111,7 +111,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 150px;
@@ -128,7 +128,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 125px;
@@ -145,7 +145,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 100px;
@@ -162,7 +162,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 90px;
@@ -181,7 +181,7 @@ img {
     }
 
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 300px;

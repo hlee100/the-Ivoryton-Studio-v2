@@ -40,7 +40,7 @@ h1 {
 
 .dropdown-content {
     width: 200px;
-    border: 1px solid transparent;
+    border: transparent;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
@@ -77,7 +77,7 @@ h2 {
 }
 
 img {
-    border: 1px solid transparent;
+    border: 2px solid black;
     border-radius: 10px;
     width: auto; 
     height: 200px;
@@ -93,7 +93,7 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 175px;
@@ -110,7 +110,7 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 150px;
@@ -127,7 +127,7 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 125px;
@@ -144,10 +144,27 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
         height: 100px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .image {
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    img {
+        border: 2px solid black;
+        border-radius: 10px;
+        width: auto; 
+        height: 75px;
     }
 }
 
@@ -161,14 +178,14 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
-        height: 75px;
+        height: 65px;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
     .image {
         margin: 10px auto;
         display: flex;
@@ -180,9 +197,9 @@ img {
     }
     
     img {
-        border: 1px solid transparent;
+        border: 2px solid black;
         border-radius: 10px;
         width: auto; 
-        height: 350px;
+        height: 225px;
     }
 }

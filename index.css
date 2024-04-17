@@ -40,7 +40,7 @@ h1 {
 
 .dropdown-content {
     width: 200px;
-    border: 1px solid transparent;
+    border: transparent;
     border-radius: 10px;
     background-color: white;
     padding: 10px;
