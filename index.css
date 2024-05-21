@@ -26,7 +26,7 @@ h1 {
     padding: 0;
     text-align: center;
     background-color: var(--white);
-    padding: 10px;
+    /* padding: 10px; */
     top: 0;
     position: sticky;
     z-index: 1;
@@ -96,8 +96,8 @@ img {
 
 .line {
     margin: auto;
-    background: rgba(101,119,124, 0.2);
-    height: 2px;
+    background: rgba(101,119,124, 0.3);
+    height: 3px;
     width: 100%;
 }   
 
@@ -106,6 +106,13 @@ img {
     padding: 25px;
     text-align: center;
     color: var(--black);
+}
+
+.footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-1 {
@@ -137,7 +144,7 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-    .image {
+    /* .image {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -150,7 +157,7 @@ img {
         border-radius: 10px;
         width: auto; 
         height: 100px;
-    }
+    } */
 
     .footer-2 {
         display: flex;
@@ -158,6 +165,6 @@ img {
         justify-content: center;
         align-items: center;
         padding: 25px;
-        background: white;
+        background: #dfe3e4;
     }
 }
