@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Prompt&display=swap');
+
 :root {
-    --black: black;
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
 }
+
 
 body {
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F5F4F4;
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: var(--white);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -13,19 +20,24 @@ h1 {
     color: var(--black);
 }
 
-#navbar {
+.navbar {
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
+    background-color: var(--white);
+    padding: 10px;
+    top: 0;
+    position: sticky;
+
 }
 
-#navbar li {
-    display: inline;
+.navbar li {
+    display: inline-block;
 }
 
-#navbar a {
+.navbar a {
     display: inline-block;
     font-size: 20px;
     padding: 10px;
@@ -33,7 +45,7 @@ h1 {
     text-decoration: none;
 }
 
-#navbar .dropdown {
+.navbar .dropdown {
     position: relative;
     display: inline-block;
 }
@@ -42,18 +54,14 @@ h1 {
     width: 200px;
     border: transparent;
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--white);
     padding: 10px;
     display: none;
     position: absolute;
     z-index: 1;
 }
 
-.dropdown-content a {
-    font-weight: bold;
-}
-
-#navbar .dropdown-content a {
+.navbar .dropdown-content a {
     text-decoration: none;
     display: block;
 }
@@ -63,7 +71,6 @@ h1 {
 }
 
 h2 {
-    margin-top: 50px;
     text-align: center;
     color: var(--black);
 }
