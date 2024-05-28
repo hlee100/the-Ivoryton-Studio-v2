@@ -88,10 +88,11 @@ h2 {
 }
 
 img {
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 10px;
     width: auto; 
-    height: 150px;
+    height: 350px;
+    box-shadow: 13px 3px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .line {
@@ -143,7 +144,7 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-    /* .image {
+    .image {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -156,7 +157,7 @@ img {
         border-radius: 10px;
         width: auto; 
         height: 100px;
-    } */
+    }
 
     .footer-2 {
         display: flex;

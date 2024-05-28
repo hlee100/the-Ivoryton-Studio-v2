@@ -74,7 +74,7 @@
 .scroller-container {
     display: grid;
     place-content: center;
-    padding: 1rem;
+    padding: 24px 1rem;
 }
   
 .tag-list {
