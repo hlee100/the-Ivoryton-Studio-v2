@@ -110,9 +110,7 @@ img {
 }
 
 .footer-container {
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    margin-top: 75px;
 }
 
 .footer-1 {
@@ -156,7 +154,7 @@ img {
     img {
         border-radius: 10px;
         width: auto; 
-        height: 100px;
+        height: 350px;
     }
 
     .footer-2 {
