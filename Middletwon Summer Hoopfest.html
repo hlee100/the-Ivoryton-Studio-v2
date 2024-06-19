@@ -4,63 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Middletown Summer Hoopfest.css">
+    <link rel="stylesheet" href="Grid Layout.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <script src="Navbar.js"></script>
     <script src="https://kit.fontawesome.com/b25a2744d8.js" crossorigin="anonymous"></script>
     <title>the Ivoryton Studio | Middletwon Hoopfest</title>
 </head>
 <body>
     <h1>the Ivoryton Studio | Portfolio</h1>
 
-    <ul class="navbar">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="About.html">ABOUT</a></li>
-        <li><a href="People.html">PEOPLE</a></li>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
 
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO <i class="fa-solid fa-caret-down" style="color: black;"></i></a>
-                <div class="dropdown-content">
-                    <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
-                    <a href="Sawmill.html">Sawmill</a>
-                    <a href="Army.html">Army</a>
-                    <a href="Belfast Ireland.html">Belfast, Ireland</a>    
-                </div>
-        </li>
+        <div class="dropdown">
+            <button class="dropbtn">Portfolio 
+                <i class="fa fa-caret-down"></i>
+            </button>
 
-        <!-- <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Weddings <i class="fa-solid fa-caret-down" style="color: #fa5f2f;"></i></a>
-                <div class="dropdown-content">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>    
-                </div>
-        </li> -->
-
-        <!-- <li><a href="">Links</a></li> -->
-    </ul>
+            <div class="dropdown-content">
+                <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
+                <a href="Sawmill.html">Sawmill</a>
+                <a href="Belfast Ireland.html">Belfast, Ireland</a>
+                <a href="Army.html">Army</a>
+                <a href="People.html">People</a>
+            </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
     <h2>Middletown Summer Hoopfest 2009-2011</h2>
 
-    <div class="text">
-        <p>For the last 3 years I've taken photographs of the games; the players, coaches, and fans at the Middletown Summer Hoopfest. Produced by Malik Pemberton and his 1Family Inc. organization in Middletown, Connecticut.</p>
-
-        <p>My goal has been to record some of the effort, spirit, and grace played out in the games at Hoopfest. In 2010 this project was supported by a grant from the Middletown Commission on the Arts. I enjoy being the photographer for the Hoopfest tournament and plan to do it again next year. Certainly, these pictures have a historic value and hopefully, some of them attain a poetic worth.</p>
-
-        <p>- Tony Donovan, 2011</p>
-    </div>
-
-    <div class="image">
-        <img src="Images-Set2/hoopfest9.jpg" alt="hoopfest9">
-        <img src="Images-Set2/hoopfest11.jpg" alt="hoopfest11">
-        <img src="Images-Set2/hoopfest4.jpg" alt="hoopfest4">
-        <img src="Images-Set2/hoopfest5.jpg" alt="hoopfest5">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/hoopfest7.jpg" alt="hoopfest7">
-        <img src="Images-Set2/hoopfest12.jpg" alt="hoopfest12">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/hoopfest6.jpg" alt="hoopfest6">
-        <img src="Images-Set2/hoopfest8.jpg" alt="hoopfest8">
-        <img src="Images-Set2/hoopfest10.jpg" alt="hoopfes10">
+    <div class="grid-container">
+        <div class="card card-tall"><img src="Images-Set2/hoopfest9.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/hoopfest11.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/hoopfest4.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/hoopfest5.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/hoopfest7.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/hoopfest12.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/hoopfest8.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/hoopfest10.jpg" alt=""></div>
     </div>
 </body>
 </html>

@@ -4,70 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Sawmill.css">
+    <link rel="stylesheet" href="Grid Layout.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <script src="Navbar.js"></script>
     <script src="https://kit.fontawesome.com/b25a2744d8.js" crossorigin="anonymous"></script>
     <title>the Ivoryton Studio | Sawmill</title>
 </head>
 <body>
     <h1>the Ivoryton Studio | Portfolio</h1>
 
-    <ul class="navbar">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="My Style.html">ABOUT</a></li>
-        <li><a href="Children.html">PEOPLE</a></li>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
 
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO <i class="fa-solid fa-caret-down" style="color: black;"></i></a>
-                <div class="dropdown-content">
-                    <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
-                    <a href="Sawmill.html">Sawmill</a>
-                    <a href="Army.html">Army</a>
-                    <a href="Belfast Ireland.html">Belfast, Ireland</a>    
-                </div>
-        </li>
+        <div class="dropdown">
+            <button class="dropbtn">Portfolio 
+                <i class="fa fa-caret-down"></i>
+            </button>
 
-        <!-- <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Weddings <i class="fa-solid fa-caret-down" style="color: #fa5f2f;"></i></a>
-                <div class="dropdown-content">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>    
-                </div>
-        </li> -->
-
-        <!-- <li><a href="">Links</a></li> -->
-    </ul>
+            <div class="dropdown-content">
+                <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
+                <a href="Sawmill.html">Sawmill</a>
+                <a href="Belfast Ireland.html">Belfast, Ireland</a>
+                <a href="Army.html">Army</a>
+                <a href="People.html">People</a>
+            </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
     <h2>Amos Congdon</h2>
 
-    <div class="image">
-        <img src="Images-Set2/ac1.jpg" alt="ac1">
-        <img src="Images-Set2/ac3.jpg" alt="ac3">
-        <img src="Images-Set2/ac11.jpg" alt="ac11">
-        <img src="Images-Set2/ac15.jpg" alt="ac15">
-        <img src="Images-Set2/ac17.jpg" alt="ac17">
-        <img src="Images-Set2/ac18.jpg" alt="ac18">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/ac2.jpg" alt="ac2">
-        <img src="Images-Set2/ac4.jpg" alt="ac4">
-        <img src="Images-Set2/ac5.jpg" alt="ac5">
-        <img src="Images-Set2/ac6.jpg" alt="ac6">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/ac12.jpg" alt="ac12">
-        <img src="Images-Set2/ac13.jpg" alt="ac13">
-        <img src="Images-Set2/ac14.jpg" alt="ac14">
-        <img src="Images-Set2/ac16.jpg" alt="ac16">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/ac7.jpg" alt="ac7">
-        <img src="Images-Set2/ac8.jpg" alt="ac8">
-        <img src="Images-Set2/ac9.jpg" alt="ac9">
-        <img src="Images-Set2/ac10.jpg" alt="ac10">
-    </div>
-    <div class="image">
-        <img src="Images-Set2/ac19.jpg" alt="ac19">
-        <img src="Images-Set2/ac20.jpg" alt="ac20">
+    <div class="grid-container">
+        <div class="card card-tall"><img src="Images-Set2/ac1.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac2.jpg" alt=""></div>
+        <div class="card card-tall card-widerr"><img src="Images-Set2/ac16.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac3.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac11.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac15.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac5.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac17.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac18.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac4.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac12.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac13.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac6.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac14.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac7.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac8.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac9.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac10.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac20.jpg" alt=""></div>
+        <div class="card"><img src="Images-Set2/ac19.jpg" alt=""></div>
     </div>
 </body>
 </html>

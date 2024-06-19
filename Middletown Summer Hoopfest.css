@@ -1,98 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --black: rgb(0, 0, 0);
+    --black: rgb(17,28,36);
     --white: rgb(255, 255, 255);
+    --grey: rgb(102,111,120);
+    --dark-grey: rgb(43, 46, 53);
+    --orange: rgb(255,154,78);
 }
 
 body {
     margin: auto;
-    font-family: "Prompt", sans-serif;
-    font-weight: 700;
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    background-color: var(--white);
+    background: linear-gradient(180deg, hsla(208, 12%, 21%, 1) 0%, hsla(222, 6%, 31%, 1) 100%);
     overflow-x: hidden;
 }
 
 h1 {
-    text-align: center;
-    color: var(--black);
-}
-
-.navbar {
-    width: 100%;
-    list-style-type: none;
     margin: 0;
-    padding: 0;
     text-align: center;
-    background-color: var(--white);
-    /* padding: 10px; */
-    top: 0;
-    position: sticky;
+    color: var(--white);
 }
 
-.navbar li {
-    display: inline-block;
-}
-
-.navbar a {
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px;
-    color: var(--black);
-    text-decoration: none;
-}
-
-.navbar .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    width: 200px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    background-color: var(--white);
-    padding: 10px;
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-
-.navbar .dropdown-content a {
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+/* Navbar Section Here */
 
 h2 {
     text-align: center;
-    color: var(--black);
-}
-
-.image {
-    margin: 15px auto;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-img {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: auto;
-    height: 200px;
-}
-
-.text {
-    padding: 100px 20vw;
-}
-
-p {
-    color: var(--black);
+    color: var(--white);
 }
 
 @media screen and (max-width: 500px) {
@@ -100,24 +35,5 @@ p {
         font-size: 25px;
         text-align: center;
         color: var(--black);
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .image {
-        margin: 15px auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 15px;
-    }
-
-    img {
-        border: 1px solid transparent;
-        border-radius: 10px;
-        width: auto; 
-        height: 200px;
     }
 }

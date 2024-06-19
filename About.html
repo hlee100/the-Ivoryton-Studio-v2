@@ -4,38 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <script src="Navbar.js"></script>
     <script src="https://kit.fontawesome.com/b25a2744d8.js" crossorigin="anonymous"></script>
     <title>the Ivoryton Studio | About</title>
 </head>
-<body>
+<body>    
     <h1>the Ivoryton Studio | About</h1>
 
-    <ul class="navbar">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="About.html">ABOUT</a></li>
-        <li><a href="People.html">PEOPLE</a></li>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
 
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO <i class="fa-solid fa-caret-down" style="color: black;"></i></a>
-                <div class="dropdown-content">
-                    <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
-                    <a href="Sawmill.html">Sawmill</a>
-                    <a href="Army.html">Army</a>
-                    <a href="Belfast Ireland.html">Belfast, Ireland</a>    
-                </div>
-        </li>
+        <div class="dropdown">
+            <button class="dropbtn">Portfolio 
+                <i class="fa fa-caret-down"></i>
+            </button>
 
-        <!-- <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Weddings <i class="fa-solid fa-caret-down" style="color: #fa5f2f;"></i></a>
-                <div class="dropdown-content">
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>    
-                </div>
-        </li> -->
-
-        <!-- <li><a href="">Links</a></li> -->
-    </ul>
+            <div class="dropdown-content">
+                <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
+                <a href="Sawmill.html">Sawmill</a>
+                <a href="Belfast Ireland.html">Belfast, Ireland</a>
+                <a href="Army.html">Army</a>
+                <a href="People.html">People</a>
+            </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
     <div class="text">
         <p>I love taking pictures of people. The most important thing about my pictures is emotion, then motion. The result is a collection of warm expressive pictures. I photograph weddings with a photojournalist style, shooting a lot of pictures in black and white and color. At first, I'll be engaging with you to take pictures, then growing distant to record things as they happen. Making sure I capture all the great moments.</p>
@@ -47,6 +43,14 @@
         <p>My work has been published in The Hartford Courant's Northeast Magazine, The New York Times, Washington Post, Leica Photography International, and Fine Woodworking. "Sharpening the Saw" is in the Yale Art Gallery's permanent collection.</p>
 
         <p>- Tony Donovan, 2011</p>
+    </div>
+
+    <div class="text">
+        <p>For the last 3 years I've taken photographs of the games; the players, coaches, and fans at the Middletown Summer Hoopfest. Produced by Malik Pemberton and his 1Family Inc. organization in Middletown, Connecticut.</p>
+
+        <p>My goal has been to record some of the effort, spirit, and grace played out in the games at Hoopfest. In 2010 this project was supported by a grant from the Middletown Commission on the Arts. I enjoy being the photographer for the Hoopfest tournament and plan to do it again next year. Certainly, these pictures have a historic value and hopefully, some of them attain a poetic worth.</p>
+
+        <p>- Tony Donovan, 2011 - <a id="text-link" href="Middletwon Summer Hoopfest.html">Middletwon Summer Hoopfest</a></p>
     </div>
 </body>
 </html>

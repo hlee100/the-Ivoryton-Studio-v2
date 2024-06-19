@@ -4,101 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="I-H-S Animation.css">
-    <script src="I-H-S Animation.js"></script>
+    <link rel="stylesheet" href="Grid Layout.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <script src="Navbar.js"></script>
     <script src="https://kit.fontawesome.com/b25a2744d8.js" crossorigin="anonymous"></script>
     <title>the Ivoryton Studio</title>
 </head>
 <body>
     <h1>the Ivoryton Studio</h1>
 
-    <ul class="navbar">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="About.html">ABOUT</a></li>
-        <li><a href="People.html">PEOPLE</a></li>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
 
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">PORTFOLIO <i class="fa-solid fa-caret-down" style="color: black;"></i></a>
-                <div class="dropdown-content">
-                    <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
-                    <a href="Sawmill.html">Sawmill</a>
-                    <a href="Army.html">Army</a>
-                    <a href="Belfast Ireland.html">Belfast, Ireland</a>
-                    <a href="#">Weddings - Discontinued</a>
-                </div>
-        </li>
+        <div class="dropdown">
+            <button class="dropbtn">Portfolio 
+                <i class="fa fa-caret-down"></i>
+            </button>
 
-        <!-- <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Weddings <i class="fa-solid fa-caret-down" style="color: black;"></i></a>
-                <div class="dropdown-content">
-                    <a href="#">The Staab's - 2007</a>
-                    <a href="#">The Hilton's - 2006</a>
-                    <a href="#">The High's - 2003</a>
-                    <a href="#">The Willy's - 2002</a>
-                </div>
-        </li> -->
-
-        <!-- <li><a href="Links.html">Links</a></li> -->
-    </ul>
-
-    <h2 id="myworks">My Works</h2>
-    <h2>Introducing The Willy's</h2>
-
-    <div class="image">
-        <img src="Images-Set1/willey3.jpg" alt="willy3">
-        <img src="Images-Set1/willey5.jpg" alt="willy5">
-        <img src="Images-Set1/willey7.jpg" alt="willy7">
+            <div class="dropdown-content">
+                <a href="Middletwon Summer Hoopfest.html">Middletown Summer Hoopfest 2009-2011</a>
+                <a href="Sawmill.html">Sawmill</a>
+                <a href="Belfast Ireland.html">Belfast, Ireland</a>
+                <a href="Army.html">Army</a>
+                <a href="People.html">People</a>
+            </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
-    <p class="images-presented">These images are presented from Weddings.</p>
-
-    <!-- <div class="scroller-container">
-        <div class="scroller" data-speed="slow">
-            <div class="scroller-inner">
-                <img src="https://i.pravatar.cc/150?img=1" alt="">
-                <img src="https://i.pravatar.cc/150?img=2" alt="">
-                <img src="https://i.pravatar.cc/150?img=3" alt="">
-                <img src="https://i.pravatar.cc/150?img=4" alt="">
-                <img src="https://i.pravatar.cc/150?img=5" alt="">
-                <img src="https://i.pravatar.cc/150?img=6" alt="">
-            </div>
-        </div>
-        
-        <div class="scroller" data-direction="right" data-speed="slow">
-            <div class="scroller-inner">
-                <img src="https://i.pravatar.cc/150?img=1" alt="">
-                <img src="https://i.pravatar.cc/150?img=2" alt="">
-                <img src="https://i.pravatar.cc/150?img=3" alt="">
-                <img src="https://i.pravatar.cc/150?img=4" alt="">
-                <img src="https://i.pravatar.cc/150?img=5" alt="">
-                <img src="https://i.pravatar.cc/150?img=6" alt="">
-            </div>
-        </div>
-
-        <div class="scroller" data-speed="slow">
-            <div class="scroller-inner">
-                <img src="https://i.pravatar.cc/150?img=1" alt="">
-                <img src="https://i.pravatar.cc/150?img=2" alt="">
-                <img src="https://i.pravatar.cc/150?img=3" alt="">
-                <img src="https://i.pravatar.cc/150?img=4" alt="">
-                <img src="https://i.pravatar.cc/150?img=5" alt="">
-                <img src="https://i.pravatar.cc/150?img=6" alt="">
-            </div>
-        </div>
-    </div> -->
+    <div class="grid-container">
+        <div class="card card-tall"><img src="Images-Set2/ac1.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac13.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac3.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac11.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac14.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac15.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac17.jpg" alt=""></div>
+        <div class="card card-tall card-widerr"><img src="Images-Set2/ac16.jpg" alt=""></div>
+        <div class="card card-tall"><img src="Images-Set2/ac18.jpg" alt=""></div>
+        <div class="card card-tall card-wider"><img src="Images-Set2/ac2.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac4.jpg" alt=""></div>
+        <div class="card card-tall card-wide"><img src="Images-Set2/ac5.jpg" alt=""></div>
+    </div>
 
     <div class="footer-container">
-        <div class="footer-1">
+        <div class="footer-1" id="footer-padding">
             <p>108 Main Street - Box 431, Ivoryton, Connecticut 06442</p>
-            <p>Cell: (860) 767-0344</p>
-            <p>Fax: (860) 434-8976</p>
-            <p>Email me: ivorytonstudio@gmail.com</p>
+            <p>+1 (860) 767-0344</p>
+            <!-- <p>Fax: (860) 434-8976</p> -->
+            <p>ivorytonstudio@gmail.com</p>
         </div>
         
         <div class="line"></div>
-    
-        <div class="footer-2">
-            <p>Designed and Developed by <a href="">Henry Lee</a></p>
+
+        <div class="footer-2" id="footer-padding">
+            <p>Designed and Developed by <a href="https://henrymlee.com/" target="_blank">Henry Lee</a></p>
             <p>Copyright © 2024 the Ivoryton Studio All Rights Reserved.</p>
         </div>
     </div>
