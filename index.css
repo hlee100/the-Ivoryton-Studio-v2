@@ -17,14 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-#announcement {
-    margin: auto;
-    background: var(--orange);
-    color: var(--white);
-    padding: 5px;
-    text-align: center;
-}
-
 h1 {
     margin: 0;
     text-align: center;
