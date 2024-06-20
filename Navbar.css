@@ -60,9 +60,11 @@
     text-align: left;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
+@media screen and (min-width: 600px) {
+    .topnav a:hover, .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
 }
 
 .dropdown-content a:hover {
