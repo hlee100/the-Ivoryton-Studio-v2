@@ -17,13 +17,14 @@
     border-radius: 4px;
 }
 
-.card:hover {
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
+@media screen and (min-width: 600px) {
+    .card:hover {
+        box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+        transform: translateY(-3px) scale(1.1);
+    }
 }
 
-
-/* Will only activate when screen size is above 600px */
+/* If below 600px cards will default to its square size to fit screen */
 @media screen and (min-width: 600px) {
     .card-wide {
         grid-column: span 2 / auto;
