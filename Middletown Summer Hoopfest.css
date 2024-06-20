@@ -4,7 +4,7 @@
     --black: rgb(17,28,36);
     --white: rgb(255, 255, 255);
     --grey: rgb(102,111,120);
-    --dark-grey: rgb(43, 46, 53);
+    --dark-grey: rgb(47, 54, 60);
     --orange: rgb(255,154,78);
 }
 
@@ -13,7 +13,7 @@ body {
     font-family: "Hind", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(180deg, hsla(208, 12%, 21%, 1) 0%, hsla(222, 6%, 31%, 1) 100%);
+    background: var(--dark-grey);
     overflow-x: hidden;
 }
 
@@ -26,12 +26,4 @@ h1 {
 h2 {
     text-align: center;
     color: var(--white);
-}
-
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 25px;
-        text-align: center;
-        color: var(--black);
-    }
 }

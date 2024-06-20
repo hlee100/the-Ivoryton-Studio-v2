@@ -1,3 +1,11 @@
+:root {
+    --black: rgb(17,28,36);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(102,111,120);
+    --dark-grey: rgb(47, 54, 60);
+    --orange: rgb(255,154,78);
+}
+
 .topnav {
     background-color: #333;
     text-align: center;
